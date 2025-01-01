@@ -18,7 +18,6 @@ uvloop.install()
 
 from pyrogram import Client, errors
 from pyrogram.enums import ChatMemberStatus, ParseMode
-from flask import Flask
 from pyrogram import Client, idle
 from pyrogram.enums import ChatMemberStatus
 
