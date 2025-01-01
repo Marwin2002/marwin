@@ -24,8 +24,7 @@ from pyrogram.enums import ChatMemberStatus
 import config
 from ..logging import LOGGER
 
-# Flask app initialize
-app = Flask(__name__)
+
 
 
 @app.route("/")
