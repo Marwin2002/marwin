@@ -21,9 +21,9 @@ load_dotenv()
 API_ID = "27758016"
 API_HASH = "8d34cfffe27ab461eabbf0091b1a27df"
 
-BOT_TOKEN = getenv("BOT_TOKEN", "7940603237:AAGYhlsh6PezOTrZ5hCUqOVi0PqCpN7i3tA")
+BOT_TOKEN = "7940603237:AAGYhlsh6PezOTrZ5hCUqOVi0PqCpN7i3tA"
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://tennyson2002:tennyson2002@cluster0.h1vm3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = "MONGO_DB_URI", "mongodb+srv://tennyson2002:tennyson2002@cluster0.h1vm3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
@@ -33,7 +33,7 @@ LOG_GROUP_ID = "-1002481172888"
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
 
-OWNER_ID = int(getenv("OWNER_ID", "7224419362"))
+OWNER_ID = "7224419362"
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
