@@ -11,15 +11,31 @@ as you want or you can collabe if you have new ideas.
 
 
 import uvloop
+import asyncio
+import threading
 
 uvloop.install()
 
 from pyrogram import Client, errors
 from pyrogram.enums import ChatMemberStatus, ParseMode
+from flask import Flask
+from pyrogram import Client, idle
+from pyrogram.enums import ChatMemberStatus
 
 import config
 from ..logging import LOGGER
 
+# Flask app initialize
+app = Flask(__name__)
+
+
+@app.route("/")
+def home():
+    return "Bot is running"
+
+
+def run():
+    app.run(host="0.0.0.0", port=8000, debug=False)
 
 class AlexaBot(Client):
     def __init__(self):
