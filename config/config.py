@@ -21,7 +21,7 @@ load_dotenv()
 API_ID = "27758016"
 API_HASH = "8d34cfffe27ab461eabbf0091b1a27df"
 
-BOT_TOKEN = "7940603237:AAGYhlsh6PezOTrZ5hCUqOVi0PqCpN7i3tA"
+BOT_TOKEN = "7940603237:AAF8bn0MFuZe-7fnpntx4HyCfHTfzkyn-vA"
 
 MONGO_DB_URI = "MONGO_DB_URI", "mongodb+srv://tennyson2002:tennyson2002@cluster0.h1vm3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
@@ -37,7 +37,7 @@ OWNER_ID = "7224419362"
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-BOT_ID = getenv("BOT_ID")
+BOT_ID = "AmritaMusicBot"
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
